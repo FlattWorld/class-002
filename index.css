@@ -1,0 +1,158 @@
+.cuadro {
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  padding: 8px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+#titulo > span {
+  color: red;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#linea {
+  height: 4px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin-top: 16px ;
+}
+#linea2 {
+  height: 2px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin: 2px 0;
+}
+#linea3 {
+  height: 2px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin: 2px 0;
+}
+#linea4 {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  margin: 2px 0;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  list-style: disc;
+  color:cornflowerblue;
+}
+
+main {
+  margin-top: 16px;
+  display: flex;
+}
+main > div:first-child {
+  width: 30%;
+  border-right: 1px solid black;
+  padding-right: 4px;
+}
+main > div:nth-child(2) {
+  padding: 8px;
+  width: 50%;
+}
+main > div:last-child {
+  width: 20%;
+}
+#new1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#new2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#new3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 12px;
+}
+#new4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin: 12px 0;
+}
+
+#subcolums1 {
+  display: flex;
+}
+#subcolumns1 > p {
+  width: 50%;
+}
+#subcolums2 {
+  display: flex;
+}
+
+#subcolums2 > p {
+  width: 50%;
+}
+#subcolums2 > div {
+  width: 50%;
+}
+
+#subcolums3 {
+  padding: 4px 4px 12px 4px;
+  background-color: lightgray;
+}
+#subcolumns4 {
+  display: flex;
+  gap: 4px
+}
+
+.imgp {
+  width: 40px;
+  float: left;
+}
+
+#img2 {
+  width: 100%;
+}
+
+#img3 {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
